@@ -1,4 +1,4 @@
-package com.monkey.study;
+package com.monkey.study.enumDiscovery;
 
 import java.util.EnumMap;
 import java.util.EnumSet;

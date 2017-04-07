@@ -1,19 +1,19 @@
-package com.monkey.study;
+package com.monkey.study.enumDiscovery;
 
 /**
 * @ClassName: enumDemo 
 * @Description: demo for enum
 * @author lt
-* @date 2017年4月7日 下午4:04:23
+* @date 2017锟斤拷4锟斤拷7锟斤拷 锟斤拷锟斤拷4:04:23
  */
 public enum enumDemo {
-	MON("周一"),
-	TUE("周二"),
-	WED("周三"),
-	THU("周四"),
-	FRI("周五"),
-	SAT("周六"),
-	SUN("周日");
+	MON("锟斤拷一"),
+	TUE("锟杰讹拷"),
+	WED("锟斤拷锟斤拷"),
+	THU("锟斤拷锟斤拷"),
+	FRI("锟斤拷锟斤拷"),
+	SAT("锟斤拷锟斤拷"),
+	SUN("锟斤拷锟斤拷");
 	
 	private String value;
 
