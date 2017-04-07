@@ -1,24 +1,19 @@
-package com.thinkgem.jeesite.test;
-
-import static org.junit.Assert.*;
+package com.monkey.study;
 
 import java.util.EnumMap;
 import java.util.EnumSet;
 import java.util.Iterator;
 import java.util.Map.Entry;
-
 import org.junit.Test;
-
 public class enumDemoTest {
 
 	/**
-	 * 
-	* @Description: 遍历、switch Enum
+	* @Description: test for enum
 	* @return 
 	* @throws 
-	* @date 2017年4月7日 下午3:18:50
+	* @date 2017年4月7日 下午4:17:38
 	 */
-	@Test
+ 	@Test
 	public void test() {
 		 for(Enum e : enumDemo.values()){
 			 System.out.println(e.toString());
@@ -42,10 +37,10 @@ public class enumDemoTest {
 	}
 
 	/**
-	* @Description: 常用方法举例
+	* @Description: example for common methods
 	* @return 
 	* @throws 
-	* @date 2017年4月7日 下午3:31:54
+	* @date 2017年4月7日 下午4:18:22
 	 */
 	@Test
 	public void testCommonMethods(){
@@ -78,10 +73,10 @@ public class enumDemoTest {
 	}
 	
 	/**
-	* @Description: EnumSet和EnumMap的使用
+	* @Description: EnumSet and EnumMap 
 	* @return 
 	* @throws 
-	* @date 2017年4月7日 下午3:37:05
+	* @date 2017年4月7日 下午4:18:56
 	 */
 	@Test
 	public void setAndMap(){
